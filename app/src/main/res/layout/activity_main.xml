@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20sp"
+        android:hint="Enter Name"
+        android:layout_marginHorizontal="50dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20sp"
+        android:hint="Enter Father Name"
+        android:layout_marginHorizontal="50dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20sp"
+        android:hint="Enter Villege"
+        android:layout_marginHorizontal="50dp"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Mail"
+        android:textColor="#3CD842"
+        android:layout_marginLeft="30sp"
+        android:layout_height="wrap_content">
+
+    </RadioButton>
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Femail"
+        android:textColor="#3CD842"
+        android:layout_marginLeft="30sp"
+        android:layout_height="wrap_content"></RadioButton>
+</RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="20sp"
+        android:id="@+id/submit_Button"
+        android:text="Submit"
+        android:layout_marginHorizontal="40dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="20sp"
+        android:id="@+id/Cancle_Button"
+        android:text="Cancle"
+        android:layout_marginHorizontal="40dp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
